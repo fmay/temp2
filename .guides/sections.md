@@ -55,6 +55,16 @@ Here are some images of CPUs ...
 |![intel-cpu](.guides/img/intel-cpu.jpg) | A typical Intel CPU|
 |![motherboard](.guides/img/motherboard.jpg)| A CPU about to be inserted into a *motherboard*, the big circuit board where all the internal electronic components live.|
 | ![motherboard](.guides/img/A8.jpg)| An Apple iPhone 6 chip squeezed onto its motherboard.|
+
+##Videos
+CPUs are often described as being the most complex single device of all human endeavour. If you're interested in seeing how a CPU is actually made, take a look at the videos below. 
+
+##Manufacturing Silicon Wafers
+![640x480](http://www.youtube.com/watch?v=AMgQ1-HdElM&feature=youtu.be)
+
+##Making a chip out of the wafer
+![640x480](http://www.youtube.com/watch?v=Cg-mvrG-K-E&feature=youtu.be)
+
 ---
 title: CPU Specifications
 files: []
@@ -103,48 +113,93 @@ files: []
 ---
 A typical PC might have the following specification
 
-*4GB (Gigabytes) RAM and a 1TB (Terabyte) hard disk.
+*4GB (Gigabytes) RAM and a 1TB (Terabyte) hard disk.*
 
 1TB is equal to 1000GB. So, the above specification has about 250 times as much hard disk space as RAM. The reason for this is that RAM is a lot more expensive than disk storage space.
+
+##Where is RAM located?
+In PC's RAM comes as chips that can be slotted in and out of the motherboard. On other devices, it is soldered onto the motherboard.
+
+![intel-cpu](.guides/img/RAM.jpg)
 
 ##RAM is very fast indeed
 In fact, the only thing faster than RAM is our CPU cache. In order for our PC to work really fast, it needs to be able to access data very quickly. This is why we use RAM.
 
 ##RAM data is lost when you power off
-This is the big drawback of RAM. All the data is lost when you power off. And that is what hard disks are for. When your application needs to save its data, it gets pushed to hard disk. 
+This is the big drawback of RAM (other than being expensive). All the data is lost when you power off. And that is what hard disks are for. When your application needs to save its data, it gets pushed to hard disk. 
 
 In the case of web applications, the data is actually saved to hard disks on systems elsewhere on the internet and never touches your hard disk. Think of Facebook. All your data exists only on the Facebook server.
 
 Smartphones and other small devices save their data to *Flash* memory. This is slower than RAM but keeps it data when there is no power.
 
+##How your CPU works with RAM
+Most computer systems load and run lots of programs in memory at the same time. Take a look at the illustration below, which shows what might be in memory at any given time.
+
+[VISUALIZATION]
+
 ##Hard Disks
 Hard disks can store a lot of data but they are very slow compared to RAM. When you run a program it is transferred from the hard disk into RAM. If the program needs data that is stored on your hard disk, then it is transferred into memory first.
+
+![intel-cpu](.guides/img/RAM.jpg)
 
 The software application (program) is responsible for making sure that data stored in RAM is saved properly to hard disk.
 
 ##Programs
 Our simple Javascript program is loaded into your PC's memory and is then accessed in RAM by the CPU when it runs the program.
 
-##Visualising Memory
-Below is a diagram to help you visualise memory. You can see that lots of different programs and their associated data storage are stored in different parts of the device's memory.
 
-[image showing several programs and their data in memory. Should show well known program names]
 
 ##Summary
 So RAM/memory is used to store both programs and data. It is directly connected to the CPU so it can be accessed incredibly quickly, which matters a lot if you want your programs to run incredibly quickly.
 
 
 ---
-title: New Section 6
+title: Storage types
 files: []
 
 ---
+If you're interested, here is a summary of common storage types. Volatile indicates whether the data is lost when power is lost.
+
+| Type         | Capacity | Cost | Speed | Volatile | Description |
+| ------ | ----- | ---| ----- |
+| [CPU Cache](http://en.wikipedia.org/wiki/CPU_cache) | 1 - 64MB | N/A | Many times speed of RAM | Yes | CPU Cache lives on the same chip as the CPU and is ecxeptionally fast. The CPU tries to load commonly accessed code and data into the cache to boost performance. |
+| [RAM](http://en.wikipedia.org/wiki/Random-access_memory) | up to 4GB per chip | $$$ | Fastest | Yes | The most expensive form of memory but also the fastest. All devices have some. A washing machine needs very little, a multi-media PC can't have enough. |
+| [ROM](http://en.wikipedia.org/wiki/Read-only_memory) | Usually MBs rather than GBs | $$ | Fast | No | Read Only Memory is used to store data that never changes. They are prepgrammed before being installed in a device. Usually contains programs that boot-up (start) a device.
+| [Magnetic Hard Drive](http://en.wikipedia.org/wiki/Hard_disk_drive) | 50 GB to 1TB or more | $ | Slow | Yes | Used to store large amounts of data that persist without power. |
+| [Solid State Drive](http://en.wikipedia.org/wiki/Solid-state_drive) | 50GB to 500GB | $$ | Quite fast | No | Like magnetic hard disks, but uses Flash memory chips (and sometimes RAM) rather than magnetic disks. Will replace hard disks as costs come down. |
+| [Flash Memory](http://en.wikipedia.org/wiki/Flash_memory) | 256GB or more | $$ | Quite fast | No | Used in SD cards, USB sticks and Solid State Drives, smartphones etc. |
 
 ---
-title: New Section 7
+title: What does the CPU do?
 files: []
 
 ---
+##The CPU runs programs
+The job of the CPU is to *run* or *execute* programs. That is really all a CPU ever does. It runs programs and usually lots of them at the same time.
+
+So, let's take a look at a simple program that adds two numbers together.
+
+##A really boring program
+Below is a simple piece of Javascript code and that covers all aspects of Input, Output, Process and Store.
+
+```javascript
+getvalue(x);
+getValue(y);
+result = x + y;
+display(result);
+saveToFile(result);
+```
+
+In English, this is what it is doing.
+
+1. Get a value and store it in RAM at a location referred to as `x`. Let's assume we are getting this from the user entering it on the keyboard.
+1. Get another value and store it in RAM at another location referred to as `y`.
+1. Add 'x' and 'y' together and and store the result in a third location, 'result'. 
+1. Next, we display the result, let's assume we simply display it on screen.
+1. Finally, we save the result to a file on our disk drive so we can retrieve it later.
+
+Everything that happens here is controlled or managed by the CPU. When we get onto programming, and especially Machine Code programming, we'll understand this better.
+
 
 ---
 title: New Section 8

@@ -99,7 +99,9 @@ files: []
 ---
 You will probably heard people talking about the a CPU in these terms
 
-*Intel Quad Core 2.6 GigaHertz Processor with 16Mb cache*
+| Intel Quad Core 2.6 GigaHertz Processor with 16Mb cache |
+|-|
+| ![intel-cpu](.guides/img/core2quad.jpg)
 
 Let's see what this means. 
 
@@ -112,18 +114,17 @@ Instructions are closely linked to 1 clock cycle. Some instructions need just on
 
 If you assume that on average, a CPU might need 3 cycles per instruction (the actual number varies from one CPU make to another) then our 2.6GHz processor is able to execute nearly 1 billion instructions each second.
 
-###How fast CPUs have got faster
-[show graph showing how Hz has changed over time]
-
 ##Cache
 The cache is special memory that lives on the CPU rather than on a seperate computer chip.
 
-The big advantage of this is that it is physically closer to the heart of the processor and is optimized for speedy access.
+The big advantage of this is that it is physically closer to the heart of the processor and is optimized for speedy access. Take a look at the image below to see an image of a real CPU and where the cache is located - right in the heart of the chip.
+
+![intel-cpu](.guides/img/cache.jpg)
 
 Being physically closer makes quite a difference given that computer signals  move near to the speed of light.
 
 ##Cores
-If your device has a *quad core* processor, it actually has 4 CPUs built into one physical chip. A *dual core* machine has 2 cores.
+If your device has a *quad core* processor, it actually has 4 CPUs built into one physical chip. A *dual core* machine has 2 cores. The above image shows where the 4 cores are located.
 
 The obvious advantage of multiple cores is that you have more available power to run your programs.
 

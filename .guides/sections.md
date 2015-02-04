@@ -6,17 +6,43 @@ layout: 2-panels-tree
 ---
 Most of you understand what a computer system is already. You may be surprised at how many household devices are computer systems or contains computer systems. In a moment, we'll list some of them our for you, including Alarm Clocks, Washing Machines, Phones and Cameras.
 
+
 ##The 4 main components
-Any computer system is made up of 4 main components.
+Any computer system is made up of 4 main components
 
-| Type | Description | Examples |
-|-|-|
-| Input | This means informational data provided to the computer system. | Keyboard, touchscreen, smartphone accelerometer and gps, network, usb, microphone, temperature sensors |
-| Output | This means information that is provided from the computer system to the outside world | Screens, speakers, network, usb ports, microphones |
-| Store | Computer systems need to store data so it can be processed | RAM (Random Access Memory), ROM (Read Only Memory), Hard Drives, SD Cards, USB Sticks, Dropbox |
-| Process | The CPU is the brain of the computer system and it is responsible for getting data from Inputs, sending data to Outputs and reading and writing data to and from the Store | Every computer system has a CPU processor. |
+- **Input** : information and data from components or devices provided to the computer system
+- **Output** : information provided by the computer system to other devices and components
+- **Store** : Computer systems need to store data so it can be processed. This includes memory, disk drives and other forms of storage.
+- **Processing** : This generally means the CPU of processor, which is the brain of the computer system. It involves execution of programs as well as coordinating of information between input devices, output devices and storage.
+
+Let's take a look at typical examples of the 4 components of a computer system.
 
 
+| Input Devices |
+|-|
+| ![](.guides/img/input.jpg)
+(show other types)
+
+| Output Devices |
+|-|
+| ![](.guides/img/output.jpg)
+(show other types)
+
+
+##Store
+There are two main types of stores.
+
+| Primary Storage - Memory|
+|-|
+| ![](.guides/img/prim-storage.jpg) |
+
+| Secondary Storage - Memory |
+|-|
+| ![](.guides/img/sec-storage.jpg) |
+
+| Process|
+|-|
+| Move to the next section for a discussion on processors and CPUs |
 
 
 ---
@@ -26,12 +52,13 @@ files: []
 ---
 Here is a table of household devices and a few of the components they might have.
 
-| Device | Processor | Input | Output | Store |
+| Device | Input | Output | Processor | Store |
 |-|-|-|-|
-| PC | Intel or AMD | Keyboard, mouse, touchpad, microphone, USB, network | Screen, network, USB, speakers | Hard disk, RAM(1) |
-| Smartphone | ARM | Touchscreen, network, GPS, accelerometer, volume button, microphone | Screen, network | RAM, Flash |
-| Raspberry Pi | ARM | USB, network, custom pins that receive signals from sensors | Custom pins, network, video port, USB | SD card |
-| Bread Machine | Custom | Temperature sensors, Clock | Mixing motor control, temperature control, display panel | RAM, ROM(2) |
+| ![](.guides/img/mac.jpg)   | Keyboard, mouse, touchpad, microphone, USB, network | Screen, network, USB, speakers | Intel or AMD processors | Hard disk, RAM(1) |
+| ![](.guides/img/samsung.jpg) | Touchscreen, network, GPS, accelerometer, camera, volume button, microphone | Screen, network, speaker | ARM | RAM, Flash Memory |
+| ![](.guides/img/pi.jpg) | USB, network, custom pins that receive signals from sensors | Custom pins, network, video port, USB | ARM | RAM, SD-Card|
+| ![](.guides/img/bread-machine.jpg) | Temperature sensors, clock/timer | Mixer motor control, temperature control, display panel, speaker/beeper | Custom  | RAM, ROM |
+
 
 ---
 title: The CPU
@@ -202,17 +229,66 @@ Everything that happens here is controlled or managed by the CPU. When we get on
 
 
 ---
-title: New Section 8
+title: The Operating System
 files: []
 
 ---
+##Common Operating Systems
+You will probably have heard of many different operating systems. Well known ones are
+
+- Windows
+- OS X for Macs
+- iOS
+- Android
+
+![OS](.guides/img/os.png)
+
+##What it does
+The Operating System is collection of programs that provides other applications access to the many different devices and components that live on a device, such as
+
+- Memory
+- Screen
+- Hard Drives
+- Network
+- Mouse
+- Printer
+- Keyboard
+- GPS
+- Touchscreen
+- etc.
+
+Say you are writing a program that wants to save a file to your hard drive. Your code might do something like
+
+*"here's an image I downloaded, now create a file called image.jpg and save it to my photo folder"*
+
+You don't need to worry about how this is done, that's the job of the operating system.
+
+##Some examples
+Every device has an operating system, here are examples of just a few the components it manages and provdes access to.
+
+| Device | OS Purpose |
+| - | - |
+| All Devices | RAM, hard-disks (for PCs), non-volatile storage |
+| PC | Provide access memory, screen, hard drive, keyboard, mouse printer etc. |
+| Smartphone | Touchscreen, volume button, make calls, internet access, power on and off |
+| Car | Tyre pressure sensors, faulty lights, fuel consumption, speed |
+| Washing Machine | Motor speed, motor direction, water temperatare, water flow control, display, time management |
+| Printer | Display, printer head position, ink level monitoring, paper level, paper jam detection, scanner control |
+
+In general, the simpler the device (fridge, for example) the simpler and smaller the OS. PC and Smartphone operating systems are very large and complex.
+
+
+
+
 
 ---
-title: New Section 9
+title: A history of networking
 files: []
 
 ---
+This is included to give an idea of the type of designer led ways we can enhance content.
 
+![](.guides/img/history.png)
 ---
 title: New Section 10
 files: []

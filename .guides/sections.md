@@ -99,20 +99,20 @@ files: []
 ---
 You will probably heard people talking about the a CPU in these terms
 
-| Intel Quad Core 2.6 GigaHertz Processor with 16Mb cache |
+| Intel Quad Core 2.0 GigaHertz Processor with 16Mb cache |
 |-|
 | ![intel-cpu](.guides/img/core2quad.jpg)
 
 Let's see what this means. 
 
 ##Clock Speed
-*Intel Quad Core 2.6GHx Processor with 16Mb cache*
+*Intel Quad Core **2.0Hz** Processor with 16Mb cache*
 
-The clock speed is the *2.6 Gigahertz* (GHz) part. What this means is that the CPU ticks over 2.6 billion times (cycles) per second.
+The clock speed is the *2.0 Gigahertz* (GHz) part. What this means is that the CPU ticks over 2 billion times (cycles) per second.
 
 Instructions are closely linked to 1 clock cycle. Some instructions need just one cycle whereas others require several.
 
-If you assume that on average, a CPU might need 3 cycles per instruction (the actual number varies from one CPU make to another) then our 2.6GHz processor is able to execute nearly 1 billion instructions each second.
+If you assume that on average, a CPU might need 3 cycles per instruction (the actual number varies from one CPU make to another) then our 2GHz processor is able to execute about 700 million instructions each second.
 
 ##Cache
 The cache is special memory that lives on the CPU rather than on a seperate computer chip.
@@ -149,6 +149,7 @@ A typical PC might have the following specification
 In PC's RAM comes as chips that can be slotted in and out of the motherboard. On other devices, it is soldered onto the motherboard.
 
 ![intel-cpu](.guides/img/RAM.jpg)
+![intel-cpu](.guides/img/prim-storage.jpg)
 
 ##RAM is very fast indeed
 In fact, the only thing faster than RAM is our CPU cache. In order for our PC to work really fast, it needs to be able to access data very quickly. This is why we use RAM.

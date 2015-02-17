@@ -13,40 +13,59 @@ Any computer system is made up of 4 main components
 - **Input** : information and data from components or devices provided to the computer system
 - **Output** : information provided by the computer system to other devices and components
 - **Store** : Computer systems need to store data so it can be processed. This includes memory, disk drives and other forms of storage.
-- **Processing** : This generally means the CPU of processor, which is the brain of the computer system. It involves execution of programs as well as coordinating of information between input devices, output devices and storage.
+- **Processing** : This generally means the CPU (or processor), which is the brain of the computer system. It involves running programs as well as coordinating the flow of information between input devices, output devices and storage.
 
 Let's take a look at typical examples of the 4 components of a computer system.
 
+
+
+
+---
+title: Input Devices
+files: []
+
+---
+Take a look at the following input devices and you should get a clear idea about what an input device is.
+
+>An input device is a peripheral (piece of computer hardware equipment) used to provide data and control signals to an information processing system such as a computer or other information appliance.
 
 | Input Devices |
 |-|
 | ![](.guides/img/input.jpg)
 (show other types)
 
+
+---
+title: Output devices
+files: []
+
+---
+> An output device is any piece of computer hardware equipment used to communicate the results of data processing carried out by an information processing system (such as a computer) into human-understandable form.
+
 | Output Devices |
 |-|
 | ![](.guides/img/output.jpg)
 (show other types)
+---
+title: Store
+files: []
 
-
-##Store
-There are two main types of stores.
+---
+There are two main types of stores. We'll disucss these storage types in more detail in a later section.
 
 | Primary Storage - Memory|
 |-|
 | ![](.guides/img/prim-storage.jpg) |
+| Primary storage (or main memory or internal memory), often referred to simply as memory, is the only one directly accessible to the CPU. The CPU continuously reads instructions stored there and executes them as required. RAM and ROM are the most common examples.|
 
 | Secondary Storage - Memory |
 |-|
 | ![](.guides/img/sec-storage.jpg) |
-
-| Process|
-|-|
-| Move to the next section for a discussion on processors and CPUs |
+| Secondary storage (also known as external memory or auxiliary storage), differs from primary storage in that it is not directly accessible by the CPU. A hard drives is the most common example although you can see there are many others. Secondary storage is most often *non-volatile* which means it retains information when the power is switched off.|
 
 
 ---
-title: Example Devices
+title: Example Computer Systems
 files: []
 
 ---
@@ -65,7 +84,7 @@ title: The CPU
 files: []
 
 ---
-CPU stands for **C**entral **P**rocessing **U**nit. You will probably have heard people talking about *processors*. A CPU is the same as a processor.
+CPU stands for **C**entral **P**rocessing **U**nit. You will probably have heard people talking about *processors*. The CPU *is* the processor.
 
 Here are some example devices that have CPUs
 
@@ -133,6 +152,24 @@ Running 4 programs on a single core means that each program will run about 4 tim
 Your device's operating system is responsible for trying to divide running programs across all available cores. On almost all modern consumer devices, you have a lot of programs running simultaneously even if you are unaware of it, so having multiple cores is usually a good thing for performance.
 
 
+
+---
+title: Clock speed
+files: []
+
+---
+
+---
+title: Cache
+files: []
+
+---
+
+---
+title: Cores
+files: []
+
+---
 
 ---
 title: "RAM & Hard Disk Space"
@@ -291,14 +328,3 @@ files: []
 This is included to give an idea of the type of designer led ways we can enhance content.
 
 ![](.guides/img/history.png)
----
-title: New Section 10
-files: []
-
----
-
----
-title: New Section 11
-files: []
-
----

@@ -124,14 +124,7 @@ You will probably heard people talking about the a CPU in these terms
 
 Let's see what this means. 
 
-##Clock Speed
-*Intel Quad Core **2.0Hz** Processor with 16Mb cache*
 
-The clock speed is the *2.0 Gigahertz* (GHz) part. What this means is that the CPU ticks over 2 billion times (cycles) per second.
-
-Instructions are closely linked to 1 clock cycle. Some instructions need just one cycle whereas others require several.
-
-If you assume that on average, a CPU might need 3 cycles per instruction (the actual number varies from one CPU make to another) then our 2GHz processor is able to execute about 700 million instructions each second.
 
 ##Cache
 The cache is special memory that lives on the CPU rather than on a seperate computer chip.
@@ -159,6 +152,13 @@ files: []
 
 ---
 
+*Intel Quad Core **2.0Hz** Processor with 16Mb cache*
+
+The clock speed is the *2.0 Gigahertz* (GHz) part. What this means is that the CPU ticks over 2 billion times (cycles) per second.
+
+Instructions are closely linked to 1 clock cycle. Some instructions need just one cycle whereas others require several.
+
+If you assume that on average, a CPU might need 3 cycles per instruction (the actual number varies from one CPU make to another) then our 2GHz processor is able to execute about 700 million instructions each second.
 ---
 title: Cache
 files: []

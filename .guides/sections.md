@@ -253,7 +253,7 @@ Ethical codes of practice are needed as computer professionals have access to a 
 
 
 ---
-title: Legal 1
+title: Legal - Data Protection Act
 files: []
 
 ---
@@ -291,7 +291,7 @@ In most cases, if data is held about you, you have the rght to seei it and if it
 
 
 ---
-title: Legal 2
+title: Legal - Computer Misuse Act
 files: []
 
 ---
@@ -304,7 +304,7 @@ This was in breach of the principle that data data should be kept safe. As a res
 ## Computer Misuse Act
 Of course, hacking into a computer system is in itself illegal. This is covered by the Computer Misuse Act, which focuses on unauthorised access to computer systems. 
 
-The Act coners three crimes
+The Act covers three crimes
 
 - Attempting to access a computer system to access information that you know you are not authorised to access. Note the use of the word *attempt*, as you do not have to be successful to be in breach of the law. Attempting to guess someone's password is in breach of the Computer Misuse Act, even if your guesses were wrong.
 - Attemping to access computer system with the intention of committing a further crime. This could be trying to access personal data with the intention of committing identity theft.
@@ -316,7 +316,7 @@ The Act coners three crimes
 
 
 ---
-title: Legal 3
+title: "Legal - Copyright, Design & Patents Act"
 files: []
 
 ---
@@ -345,6 +345,8 @@ You also need to keep in mind that use of the Internet spans the world and what 
 - Some countries have strong rules on the use of encryption
 
 This has become an increasingly complex area and people have to become aware of their online actions. 
+
+
 ---
 title: The CPU
 files: []

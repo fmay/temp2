@@ -253,6 +253,99 @@ Ethical codes of practice are needed as computer professionals have access to a 
 
 
 ---
+title: Legal 1
+files: []
+
+---
+The law has an important role to play when it comes to computer systems and espeically software applications such as social media. 
+
+There are some specific acts in law that relate to computer systems
+
+- The Data Protection Act 1998
+- The Computer Misuse Act 1998
+- Copyright, Design and Patents Act 1998
+
+## The Data Protection Act 1998
+This governs the way in which companies have to look after data they hold about us. The following organizations all hold data about us, such as
+
+- Doctors
+- Banks
+- Web shops 
+- Social media sites
+- Web applications where you sign up and supply private information
+
+If a company wishes to hold data about us, they must first register with the Information Commissioner's Office (ICO). There are 8 princpiles that they must adhere to
+
+- Data must be processed fairly
+- It can only be used for the purposes they have stated
+- They should only hold data they actually need
+- Data must be accurate and up to date
+- Data must not be held longer than it is needed for
+- Data will be used in accordance with your rights
+- Data will be kept safe
+- Data will not be transferred to any country where they do not have similar laws
+
+In most cases, if data is held about you, you have the rght to seei it and if it is incorrect, you can insist it is changed.
+
+
+
+
+---
+title: Legal 2
+files: []
+
+---
+In 2011, hackers managed to break into Sony's computer systems and steal information about individuals held on their Playstation network.
+
+Sony were heavily criticised and the ICO decided that Sony had failed to keep its systems security up to date with general technical security developments.
+
+This was in breach of the principle that data data should be kept safe. As a result, the ICO fined Sony £250,000.
+
+## Computer Misuse Act
+Of course, hacking into a computer system is in itself illegal. This is covered by the Computer Misuse Act, which focuses on unauthorised access to computer systems. 
+
+The Act coners three crimes
+
+- Attempting to access a computer system to access information that you know you are not authorised to access. Note the use of the word *attempt*, as you do not have to be successful to be in breach of the law. Attempting to guess someone's password is in breach of the Computer Misuse Act, even if your guesses were wrong.
+- Attemping to access computer system with the intention of committing a further crime. This could be trying to access personal data with the intention of committing identity theft.
+- Unauthorised access a computer system with the intention of changing data held on it or to impair the running of the computer system. This offense can lead to a jail sentence of up to 10 years in the UK.
+
+
+
+
+
+
+---
+title: Legal 3
+files: []
+
+---
+## Copyright, Design and Patents Act 1998
+This acts prevents work from being copied without permission. This would typically cover
+
+- Text
+- Images
+- Video 
+- Music
+- Software
+
+If someone else takes a photograph and publishes it, it is against the law for someone to copy it. 
+
+People have been breaking copyright law long before the Internet but the Internet has made it much easier to do so.
+
+File sharing websites and peer-to-peer networks have meant that large amounts of copyright material are being shared online, much to the concern of the film and music industry.
+
+There are, however, many more laws about computer and Internet use. As uses of the Internet develo, the law is having to be applied in new ways. 
+
+For example, there have been cases of people being sued for lible for posts they have made on Twitter. 
+
+You also need to keep in mind that use of the Internet spans the world and what may be legal in the UK may not be legal in other countries. 
+
+- Some countries have very strict rules about the sort of material that people are allowed to access.
+- Some countries have strong rules on the use of encryption
+
+This has become an increasingly complex area and people have to become aware of their online actions. 
+---
 title: The CPU
 files: []
 

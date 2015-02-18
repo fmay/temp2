@@ -7,13 +7,15 @@ layout: 2-panels-tree
 Most of you understand what a computer system is already. You may be surprised at how many household devices are computer systems or contains computer systems. In a moment, we'll list some of them our for you, including Alarm Clocks, Washing Machines, Phones and Cameras.
 
 
-## The 4 main components
+## The 4 main components of a computer System
 Any computer system is made up of 4 main components
 
 - **Input** : information and data from components or devices provided to the computer system
 - **Output** : information provided by the computer system to other devices and components
 - **Store** : Computer systems need to store data so it can be processed. This includes memory, disk drives and other forms of storage.
 - **Processing** : This generally means the CPU (or processor), which is the brain of the computer system. It involves running programs as well as coordinating the flow of information between input devices, output devices and storage.
+
+>The above 4 component system is known as the Von Neumann acrchitecture.
 
 Let's take a look at typical examples of the 4 components of a computer system.
 
@@ -71,12 +73,15 @@ files: []
 ---
 Here is a table of household devices and a few of the components they might have.
 
+[add a few more example to the listthis list should contain lots of options as just images. The user would mouse over to get a pop-up info box]
+
 | Device | Input | Output | Processor | Store |
 |-|-|-|-|-|
 | ![](.guides/img/mac.jpg)   | Keyboard, mouse, touchpad, microphone, USB, network | Screen, network, USB, speakers | Intel or AMD processors | Hard disk, RAM(1) |
 | ![](.guides/img/samsung.jpg) | Touchscreen, network, GPS, accelerometer, camera, volume button, microphone | Screen, network, speaker | ARM | RAM, Flash Memory |
 | ![](.guides/img/pi.jpg) | USB, network, custom pins that receive signals from sensors | Custom pins, network, video port, USB | ARM | RAM, SD-Card|
 | ![](.guides/img/bread-machine.jpg) | Temperature sensors, clock/timer | Mixer motor control, temperature control, display panel, speaker/beeper | Custom  | RAM, ROM |
+
 
 ---
 title: The CPU

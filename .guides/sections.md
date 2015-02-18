@@ -326,7 +326,31 @@ This is included to give an idea of the type of designer led ways we can enhance
 
 ![](.guides/img/history.png)
 ---
-title: New Section 16
+title: Reliability
+files: []
+
+---
+
+---
+title: Reliability 2
+files: []
+
+---
+
+---
+title: Standards
+files: []
+
+---
+
+---
+title: Hardware standards
+files: []
+
+---
+
+---
+title: Software standards
 files: []
 
 ---

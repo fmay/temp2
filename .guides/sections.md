@@ -98,7 +98,6 @@ If hardware fails then it is realtively easy to imagine how the system as a whol
 | Server Disk drive crashes | All data on that drive is lost | File servers have several disks with data spread across them so if one fails, the others contain the same data allowing the faulty one to be replaced after which the data is restored. This is known as a RAID disk array |
 | Aircraft avionics system failure | Plane could crash | Modern planes have *triple redundant systems* meaning there are 3 entirely separate control systems located in different physical locations to reduce likelihood of all 3 failing |
 
-
 ---
 title: Software reliability
 files: []
@@ -108,7 +107,10 @@ If software fails then the effect can vary. Software engineers spend a lot of ti
 
 | System Type | Seriousness | Description |
 |-|-|-|
-| Traffic Management Systems | Traffic lights fail to operate correctly resulting in 
+| Pacemaker control software | Faintness or even death | If the software would fail, then either pacemaker would stop completely or it could send out pulses to stimulate the heart and an irregular or even  very fast rate, neither of which are comfortable |
+| Traffic Management Systems | Traffic lights fail to operate correctly resulting in chaos or accidents |
+| Computer game | Annoying | You are about to achieve your high score when the game crashes or freezes. Your life is temporarily ruined. |
+| Word processor | Lost work | You have been editing a document for 2 hours without saving then it crashes. You have lost 2 hours of work. Other than testing, adding an auto-save feature can prevent this, which modern wor
 ---
 title: Standards
 files: []

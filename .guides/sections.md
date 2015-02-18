@@ -127,6 +127,12 @@ title: Standards
 files: []
 
 ---
+Nowadays, when you buy a keyboard or a mouse, you can be pretty sure that when you plug it in to a PC or Mac, it is going to work.
+
+Not so long ago, however, you had to know exactly what you were buying and whether it was compatible with your computer. This was annoying for both buyers and sellers of computer equipment.
+
+The same thing applies to computer software. For example, if you have a Word document or an Excel spreadsheet and you want to send it to people to read, they have to have the same program to read it. You have probably opened up a PDF document before. A PDF document is a standard way of sending documents to anyone in a way that does not require them to have Word or Excel. All they need is a PDF reader, which all modern systems have preloaded. The PDF document format is an example of a software standard.
+
 
 ---
 title: Hardware standards

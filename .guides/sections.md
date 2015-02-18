@@ -7,7 +7,7 @@ layout: 2-panels-tree
 Most of you understand what a computer system is already. You may be surprised at how many household devices are computer systems or contains computer systems. In a moment, we'll list some of them our for you, including Alarm Clocks, Washing Machines, Phones and Cameras.
 
 
-##The 4 main components
+## The 4 main components
 Any computer system is made up of 4 main components
 
 - **Input** : information and data from components or devices provided to the computer system
@@ -72,12 +72,11 @@ files: []
 Here is a table of household devices and a few of the components they might have.
 
 | Device | Input | Output | Processor | Store |
-|-|-|-|-|
+|-|-|-|-|-|
 | ![](.guides/img/mac.jpg)   | Keyboard, mouse, touchpad, microphone, USB, network | Screen, network, USB, speakers | Intel or AMD processors | Hard disk, RAM(1) |
 | ![](.guides/img/samsung.jpg) | Touchscreen, network, GPS, accelerometer, camera, volume button, microphone | Screen, network, speaker | ARM | RAM, Flash Memory |
 | ![](.guides/img/pi.jpg) | USB, network, custom pins that receive signals from sensors | Custom pins, network, video port, USB | ARM | RAM, SD-Card|
 | ![](.guides/img/bread-machine.jpg) | Temperature sensors, clock/timer | Mixer motor control, temperature control, display panel, speaker/beeper | Custom  | RAM, ROM |
-
 
 ---
 title: The CPU
@@ -93,7 +92,7 @@ Here are some example devices that have CPUs
 - Modern washing machines and fridges
 - Modern watches and clocks, not just digital ones
 
-##What does a CPU look like?
+## What does a CPU look like?
 Here are some images of CPUs ...
 
 | CPU | Description |
@@ -102,13 +101,13 @@ Here are some images of CPUs ...
 |![motherboard](.guides/img/motherboard.jpg)| A CPU about to be inserted into a *motherboard*, the big circuit board where all the internal electronic components live.|
 | ![motherboard](.guides/img/A8.jpg)| An Apple iPhone 6 chip squeezed onto its motherboard.|
 
-##Videos
+## Videos
 CPUs are often described as being the most complex single device of all human endeavour. If you're interested in seeing how a CPU is actually made, take a look at the videos below. 
 
-##Manufacturing Silicon Wafers
+## Manufacturing Silicon Wafers
 ![640x480](http://www.youtube.com/watch?v=AMgQ1-HdElM&feature=youtu.be)
 
-##Making a chip out of the wafer
+## Making a chip out of the wafer
 ![640x480](http://www.youtube.com/watch?v=Cg-mvrG-K-E&feature=youtu.be)
 
 ---
@@ -125,33 +124,11 @@ You will probably heard people talking about the a CPU in these terms
 Let's see what this means. 
 
 
-
-##Cache
-The cache is special memory that lives on the CPU rather than on a seperate computer chip.
-
-The big advantage of this is that it is physically closer to the heart of the processor and is optimized for speedy access. Take a look at the image below to see an image of a real CPU and where the cache is located - right in the heart of the chip.
-
-![intel-cpu](.guides/img/cache.jpg)
-
-Being physically closer makes quite a difference given that computer signals  move near to the speed of light.
-
-##Cores
-If your device has a *quad core* processor, it actually has 4 CPUs built into one physical chip. A *dual core* machine has 2 cores. The above image shows where the 4 cores are located.
-
-The obvious advantage of multiple cores is that you have more available power to run your programs.
-
-Running 4 programs on a single core means that each program will run about 4 times slower than if each one was running all on its own.
-
-Your device's operating system is responsible for trying to divide running programs across all available cores. On almost all modern consumer devices, you have a lot of programs running simultaneously even if you are unaware of it, so having multiple cores is usually a good thing for performance.
-
-
-
 ---
 title: Clock speed
 files: []
 
 ---
-
 *Intel Quad Core **2.0Hz** Processor with 16Mb cache*
 
 The clock speed is the *2.0 Gigahertz* (GHz) part. What this means is that the CPU ticks over 2 billion times (cycles) per second.
@@ -164,12 +141,27 @@ title: Cache
 files: []
 
 ---
+The cache is special memory that lives on the CPU rather than on a seperate computer chip.
 
+The big advantage of this is that it is physically closer to the heart of the processor and is optimized for speedy access. Take a look at the image below to see an image of a real CPU and where the cache is located - right in the heart of the chip.
+
+![intel-cpu](.guides/img/cache.jpg)
+
+Being physically closer makes quite a difference given that computer signals  move near to the speed of light.
 ---
 title: Cores
 files: []
 
 ---
+If your device has a **quad core** processor, it actually has 4 CPUs built into one physical chip. A dual core machine has 2 cores. The above image shows where the 4 cores are located.
+
+The obvious advantage of multiple cores is that you have more available power to run your programs.
+
+Running 4 programs on a single core means that each program will run about 4 times slower than if each one was running all on its own.
+
+Your device's operating system is responsible for trying to divide running programs across all available cores. On almost all modern consumer devices, you have a lot of programs running simultaneously even if you are unaware of it, so having multiple cores is usually a good thing for performance.
+
+
 
 ---
 title: "RAM & Hard Disk Space"
@@ -328,3 +320,8 @@ files: []
 This is included to give an idea of the type of designer led ways we can enhance content.
 
 ![](.guides/img/history.png)
+---
+title: New Section 16
+files: []
+
+---

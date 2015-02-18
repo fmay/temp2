@@ -82,6 +82,15 @@ Here is a table of household devices and a few of the components they might have
 | ![](.guides/img/pi.jpg) | USB, network, custom pins that receive signals from sensors | Custom pins, network, video port, USB | ARM | RAM, SD-Card|
 | ![](.guides/img/bread-machine.jpg) | Temperature sensors, clock/timer | Mixer motor control, temperature control, display panel, speaker/beeper | Custom  | RAM, ROM |
 
+Other example computer systems include
+
+- Air traffic control systems
+- Pacemakers
+- Hospital medical equipment
+- Traffic management systems
+- In flight avionics control systems
+
+So you can see that as well as your beloved personal gadgets there are computer systems that are truly important to many aspects of modern society that we probably don't even think about.
 
 ---
 title: Hardware reliability
@@ -93,7 +102,7 @@ Reliability is a big issue when designing computer systems.
 If hardware fails then it is realtively easy to imagine how the system as a whole can fail. 
 
 | Failure | Effect | Solution |
-|-|-|
+|-|-|-|
 | Computer power supply blows | Computer shuts down completely | *Redundant power supply* means the computer has 2 power supplies built in so if one fails, the other still operates while the broken one is replaced |
 | Server Disk drive crashes | All data on that drive is lost | File servers have several disks with data spread across them so if one fails, the others contain the same data allowing the faulty one to be replaced after which the data is restored. This is known as a RAID disk array |
 | Aircraft avionics system failure | Plane could crash | Modern planes have *triple redundant systems* meaning there are 3 entirely separate control systems located in different physical locations to reduce likelihood of all 3 failing |
@@ -107,10 +116,10 @@ If software fails then the effect can vary.
 
 | System Type | Seriousness | Description |
 |-|-|-|
-| Pacemaker control software | Faintness or even death | If the software would fail, then either pacemaker would stop completely or it could send out pulses to stimulate the heart and an irregular or even  very fast rate, neither of which are comfortable |
-| Traffic Management Systems | Traffic lights fail to operate correctly resulting in chaos or accidents |
-| Computer game | Annoying | You are about to achieve your high score when the game crashes or freezes. Your life is temporarily ruined. |
-| Word processor | Lost work | You have been editing a document for 2 hours without saving then it crashes. You have lost 2 hours of work. Other than testing, adding an auto-save feature can prevent this, which modern word-processors all have. |
+| IMG Pacemaker | Faintness or even death | If the software would fail, then either pacemaker would stop completely or it could send out pulses to stimulate the heart and an irregular or even  very fast rate, neither of which are comfortable |
+| IMG Traffic | Traffic jams or even death | Traffic lights fail to operate correctly resulting in chaos or accidents. |
+| IMG Gaming | Annoying | You are about to achieve your high score when the game crashes or freezes. Your life is temporarily ruined. |
+| IMG Word processor | Lost work | You have been editing a document for 2 hours without saving then it crashes. You have lost 2 hours of work. Other than testing, adding an auto-save feature can prevent this, which modern word-processors all have. |
 
 ## Testing
 Software engineers spend a lot of time writing code with reliability in mind. The table below shows the various ways software development teams look to enhance reliability through testing.
@@ -144,6 +153,7 @@ files: []
 The following table shows some well known hardware standards.
 
 | Standard | Description |
+|-|-|
 | USB [image] | Allows you to connect things like printers, keyboards, mice, cameras, microphones and many other peripheral devices. |
 | Bluetooth | Wirelessly connect smartphones, mice, keyboards and other devices |
 | RAID | Connect two or more hard disks together so that if one disk drive fails, the other drive(s) have the same data spread across them so if one fails, you don't lose data |

@@ -84,6 +84,36 @@ Here is a table of household devices and a few of the components they might have
 
 
 ---
+title: Reliability
+files: []
+
+---
+
+---
+title: Reliability 2
+files: []
+
+---
+
+---
+title: Standards
+files: []
+
+---
+
+---
+title: Hardware standards
+files: []
+
+---
+
+---
+title: Software standards
+files: []
+
+---
+
+---
 title: The CPU
 files: []
 
@@ -325,32 +355,3 @@ files: []
 This is included to give an idea of the type of designer led ways we can enhance content.
 
 ![](.guides/img/history.png)
----
-title: Reliability
-files: []
-
----
-
----
-title: Reliability 2
-files: []
-
----
-
----
-title: Standards
-files: []
-
----
-
----
-title: Hardware standards
-files: []
-
----
-
----
-title: Software standards
-files: []
-
----

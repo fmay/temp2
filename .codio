@@ -1,0 +1,13 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Git UI Server": "ungit"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Git UI": "http://{{domain}}:8448/#/repository?path=%2Fhome%2Fcodio%2Fworkspace"
+  }
+}
